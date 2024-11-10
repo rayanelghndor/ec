@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0e0e0, #f8f8f8); /* Soft gradient background */
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 400px; /* Increased max-width for better spacing */
+    padding: 30px; /* Slightly more padding for balance */
+    margin: auto;
+    background-color: #fff;
+    border-radius: 12px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px; /* Rounded input fields */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border 0.3s ease; /* Smooth border transition */
+  }
+  
+  input:focus {
+    border-color: #28a745; /* Highlight input on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.2); /* Soft glow effect */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darken button on hover */
+  }
+  
+  button:active {
+    background-color: #1e7e34; /* Darker shade when clicked */
+  }
+  
+  .small-text {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+  }
+  
+  a {
+    color: #28a745;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
